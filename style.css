@@ -1,0 +1,47 @@
+/*navy #16243E
+gold #C38317
+white #FEF9E6*/
+
+* {
+    background-color:#16243E;
+    border-color:C38317;
+}
+
+header {
+    text-align: center;
+    color:#C38317;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 15px;
+    color:#C38317;
+}
+
+header h1, header h2 {
+    margin:10px;
+}
+
+.NavBar {
+    display:flex;
+    justify-content: center;
+    font-size: 30px;
+    padding:50px;
+    gap:20px;
+}
+
+.NavBar a {
+    color:#FEF9E6;
+}
+
+.NavBar a:hover {
+    color:#C38317;
+}
+
+.NavBar a.active {
+    color:#C38317;
+}
+
