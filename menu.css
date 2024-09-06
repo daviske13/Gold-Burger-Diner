@@ -1,0 +1,12 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds spacing between the images */
+}
+
+.menu img {
+    width: 900px; /* Adjust the width to make the images smaller */
+    height: auto;
+}
