@@ -1,5 +1,18 @@
-.fb-page {
-    display:flex;
-    justify-content: center;
+p {
+    color:#C38317;
+}
+
+.horizontal-break {
+    text-align: center;
+    margin:40px;
+    position:relative;
+}
+
+.horizontal-break p {
+    display: inline-block;
+    position:relative;
+    padding: 0 20px;
+    margin:0;
+    font-weight: bold;
 }
 
